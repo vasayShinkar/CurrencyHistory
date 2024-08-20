@@ -7,4 +7,4 @@ The program provides some choice of settings: adding columns of currency changes
 Also, if you hold down the left mouse button near the column and drag it to another column, then you will see additional information about the changes
 
 
-![app]((https://github.com/vasayShinkar/CurrencyHistory/blob/main/image.png)
+![app](https://github.com/vasayShinkar/CurrencyHistory/blob/main/image.png)
