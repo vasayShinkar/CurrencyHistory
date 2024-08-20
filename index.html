@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="/d3.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>BTH TO USD</h1>
+        <svg class="svg"></svg>
+        <div class="settings">
+        <select class="timetable">
+            <option disabled selected>period</option>
+            <option value="144">for the last 6 days</option>
+            <option value="432">for the last 18 days</option>
+            <option value="1296">for the last 54 days</option>
+            <option value="4860">for the last 6 month</option>
+        </select>
+        <select class="type">
+            <option disabled selected>type of diagramm</option>
+            <option value="wawes">with wawes</option>
+            <option value="bars">only bars</option>
+        </select>
+        <select class="ability">
+            <option disabled selected>Extra Information</option>
+            <option value="changes">show changes on the diagramm</option>
+            <option value="only value">show only the value at some time</option>
+        </select>
+
+        </div>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

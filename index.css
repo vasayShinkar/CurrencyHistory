@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+body {
+    background: #2C3531;
+    text-align: center;
+    color: #116466;
+    font: 12px;
+}
+text {
+    font-size: smaller;
+    stroke : #fff;
+}
+
+.svg {
+    width: 600px;
+    height:300px;
+    stroke: #fff;
+    stroke-width: 0.5px;
+}
+.domain {
+    fill: #fff;
+    stroke: 0.4;
+}
+.settings select {
+    background: transparent;
+    padding: 3px;
+    border-radius: 10px;
+    color: inherit;
+}
+path {
+    stroke: 3;
+}
+path.mainLine {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    opacity: 0.5;
+}
+
+rect.bars {
+    opacity: 0.5;
+    fill: #717062;
+    z-index: -2;
+}
+rect.change {
+    opacity: 0.5;
+    z-index: -2;
+}
+
+rect.change.h {
+    fill: rgb(2, 255, 2);
+}
+rect.change.l {
+    fill: rgb(255, 85, 85);
+}
+.compareArea {
+    stroke-width: 1;
+    opacity: 0.9;
+}
+.compareArea {
+    font-size: 10px;
+}
+
+.bars {
+    cursor: pointer;
+}
